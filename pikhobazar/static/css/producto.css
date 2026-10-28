@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    height: 135px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0E6F0  ;
+
+}
+
+.titulos{
+    text-align: center;
+    margin-top: auto; 
+} 
+
+.pikho_bazar {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-size: 30px;
+    font-style: normal;
+    color: #800000;
+    margin: 0%;
+}
+
+.columna_login{
+    margin-top: auto;
+    color:#4A4A4A;
+}
+
+
+.cocina_y_deco {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-size: 15px;
+    font-style: normal;
+    color: #800000;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex:1;
+}
+
+footer a {
+    text-decoration: none;
+    color:#4A4A4A;
+}
+
+#instagrama{
+    height: 20px;
+}
+#whatsapp{
+    height: 20px;
+}
+
+#facebook{
+    height: 20px;
+}
+.nav-item{
+    font-size: 15px;
+}
+footer{
+    font-size: 15px;
+    padding: 1em 0;
+    background-color: #F0E6F0;
+    margin-top: auto;
+}

@@ -1,0 +1,1270 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+
+        <!--fuente para PB-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        
+        <!--css bootstrap-->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="/static/css/style.css">
+
+    </head>
+    <body>
+        
+        <!--encabezado-->
+        <header>
+            <div class="container titulos">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 titulo">
+                    <p class="pikho_bazar">PIKHO BAZAR</p>
+                </div>
+                <div class="col-md-3 columna_login">
+                <p>iniciar sesion</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 subtitulo ">
+                <div class="container">
+                    <p class="cocina_y_deco">cocina y deco</p>
+                </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/cocina/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Cocina
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Utensillos/">Utensillos</a></li>
+                                <li><a class="dropdown-item" href="/Cacerolla/">Cacerolla</a></li>
+                                <li><a class="dropdown-item" href="/Sartenes/">Sartenes</a></li>
+                                <li><a class="dropdown-item" href="/Tapers/">Tapers</a></li>
+                                <li><a class="dropdown-item" href="/Planchas_Biferas/">Planchas Biferas</a></li>
+                                <li><a class="dropdown-item" href="/Wok/">Wok</a></li>
+                                <li><a class="dropdown-item" href="/Tazas_Mocha/">Tazas Mocha</a></li>
+                                <li><a class="dropdown-item" href="/Fuentes/">Fuentes</a></li>
+                                <li><a class="dropdown-item" href="/Ensaladeras/">Ensaladeras</a></li>
+                                <li><a class="dropdown-item" href="/Bowl_Breakfast/">Bowl Breakfast</a></li>
+                                <li><a class="dropdown-item" href="/Jarro_Breakfast/">Jarro Breakfast</a></li>
+                                <li><a class="dropdown-item" href="/Taza_Flashy/">Taza Flashy</a></li>
+                                <li><a class="dropdown-item" href="/Tarteras/">Tarteras</a></li>
+                                <li><a class="dropdown-item" href="/Flaneras/">Flaneras</a></li>
+                                <li><a class="dropdown-item" href="/Servilleteros/">Servilleteros</a></li>
+                                <li><a class="dropdown-item" href="/Pizzeras/">Pizzeras</a></li>
+                                <li><a class="dropdown-item" href="/Asaderas_Rectangulares/">Asaderas Rectangulares</a></li>
+                                <li><a class="dropdown-item" href="/Molde_Muffins/">Molde Muffins</a></li>
+                                <li><a class="dropdown-item" href="/Budineras/">Budineras</a></li>
+                                <li><a class="dropdown-item" href="/Molde_de_Galletitas/">Molde de Galletitas</a></li>
+                                <li><a class="dropdown-item" href="/Manteles_individuales/">Manteles individuales</a></li>
+                                <li><a class="dropdown-item" href="/por_mayor/">Por Mayor</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/deco/">Deco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/baño/">Baño</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/combos/">Combos</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </nav>
+                </div>  
+                </div>
+            </div>
+        </header>
+
+        <!--cuerpo-->
+        <main>
+            <div class="container">
+                    <div id="tarjetas">
+                        <div class="row" >
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/66960-021">
+                                        <img src="/static/img/productos/pikhobazar-img/2.png" class="card-img-top" alt="...">
+                                    </a>    
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/">
+                                        <img src="/static/img/productos/pikhobazar-img/3.png" class="card-img-top" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/66960-181/">
+                                        <img src="/static/img/productos/pikhobazar-img/4.png" class="card-img-top" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/">
+                                        <img src="/static/img/productos/pikhobazar-img/5.png" class="card-img-top" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/C01778UC/"><img src="/static/img/productos/pikhobazar-img/6.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/66960-011/"><img src="/static/img/productos/pikhobazar-img/7.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/8.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/66902-041/"><img src="/static/img/productos/pikhobazar-img/9.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/66902-071/"><img src="/static/img/productos/pikhobazar-img/10.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/66902-081/"><img src="/static/img/productos/pikhobazar-img/11.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/VCPP27LRBCO/"> <img src="/static/img/productos/pikhobazar-img/12.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="/producto/VCPPLRBCO/"><img src="/static/img/productos/pikhobazar-img/13.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/VCPHLRBCO/"><img src="/static/img/productos/pikhobazar-img/14.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/VCP19LRBCO/"><img src="/static/img/productos/pikhobazar-img/15.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                            
+                                <a  href="/producto/54/"> <img src="/static/img/productos/pikhobazar-img/16.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href=  "/producto/54/"><img src="/static/img/productos/pikhobazar-img/17.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row"> 
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                            
+                                <a href="/producto/VCPTLRBCO/"> <img src="/static/img/productos/pikhobazar-img/18.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/VCPCLRBCO/"> <img src="/static/img/productos/pikhobazar-img/18.png"  class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/VCFH29PLRBCO/"><img src="/static/img/productos/pikhobazar-img/20.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/VCJ1LRBCO/"><img src="/static/img/productos/pikhobazar-img/21.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">                           
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/VCEILRBCO/"><img src="/static/img/productos/pikhobazar-img/22.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FH29LRBCO/"><img src="/static/img/productos/pikhobazar-img/23.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/PPLRBCO/"><img src="/static/img/productos/pikhobazar-img/24.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/P21LRBCO/"><img src="/static/img/productos/pikhobazar-img/25.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/PHLRBCO/"><img src="/static/img/productos/pikhobazar-img/26.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/P19LRBCO/"><img src="/static/img/productos/pikhobazar-img/27.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/P17LRBCO/"><img src="/static/img/productos/pikhobazar-img/28.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/TCLRBCO/"><img src="/static/img/productos/pikhobazar-img/29.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/TCLRBCO/"><img src="/static/img/productos/pikhobazar-img/29.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/J1LRBCO/"><img src="/static/img/productos/pikhobazar-img/30.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/PCLRBCO/"><img src="/static/img/productos/pikhobazar-img/31.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/67/"><img src="/static/img/productos/pikhobazar-img/32.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/PTLRBCO/"><img src="/static/img/productos/pikhobazar-img/33.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FO33LRBCO/"><img src="/static/img/productos/pikhobazar-img/34.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FO27LRBCO/"><img src="/static/img/productos/pikhobazar-img/35.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/17/"><img src="/static/img/productos/pikhobazar-img/36.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/POTE3LRBCO/"><img src="/static/img/productos/pikhobazar-img/37.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/POTE2LRBCO/"><img src="/static/img/productos/pikhobazar-img/38.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/POTE1LRBCO/"><img src="/static/img/productos/pikhobazar-img/39.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SAINDLRBCO/"><img src="/static/img/productos/pikhobazar-img/40.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/PIINDLRBCO/"><img src="/static/img/productos/pikhobazar-img/41.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/9/"><img src="/static/img/productos/pikhobazar-img/42.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/8/"><img src="/static/img/productos/pikhobazar-img/43.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/7"><img src="/static/img/productos/pikhobazar-img/44.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/10/"><img src="/static/img/productos/pikhobazar-img/45.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/46.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/11/"><img src="/static/img/productos/pikhobazar-img/47.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/48.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/247BC00/"><img src="/static/img/productos/pikhobazar-img/49.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/209BC00/"><img src="/static/img/productos/pikhobazar-img/50.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/6512/"><img src="/static/img/productos/pikhobazar-img/51.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/180BC00/"><img src="/static/img/productos/pikhobazar-img/52.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/180BC00/"><img src="/static/img/productos/pikhobazar-img/53.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/15/"><img src="/static/img/productos/pikhobazar-img/54.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/16/"><img src="/static/img/productos/pikhobazar-img/55.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/LH1091/"><img src="/static/img/productos/pikhobazar-img/56.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6097/"><img src="/static/img/productos/pikhobazar-img/57.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/58.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6095/"><img src="/static/img/productos/pikhobazar-img/59.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6094/"><img src="/static/img/productos/pikhobazar-img/60.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/61.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/1/"><img src="/static/img/productos/pikhobazar-img/62.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/2/"><img src="/static/img/productos/pikhobazar-img/63.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/3/"><img src="/static/img/productos/pikhobazar-img/64.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/4/"><img src="/static/img/productos/pikhobazar-img/65.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/5/"><img src="/static/img/productos/pikhobazar-img/66.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/6/"><img src="/static/img/productos/pikhobazar-img/67.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/V6451/"><img src="/static/img/productos/pikhobazar-img/71.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/V6450/"><img src="/static/img/productos/pikhobazar-img/72.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/74.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/75.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/76.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6311/"><img src="/static/img/productos/pikhobazar-img/77.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6313/"><img src="/static/img/productos/pikhobazar-img/78.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6318/"><img src="/static/img/productos/pikhobazar-img/79.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SG-6315/"><img src="/static/img/productos/pikhobazar-img/80.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/81.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/82.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G01749UC/"><img src="/static/img/productos/pikhobazar-img/89.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FW4019CA/"><img src="/static/img/productos/pikhobazar-img/90.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F04012CA/"><img src="/static/img/productos/pikhobazar-img/91.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01585CA/"><img src="/static/img/productos/pikhobazar-img/92.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00541AL/"><img src="/static/img/productos/pikhobazar-img/93.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/94.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G02724CA/"><img src="/static/img/productos/pikhobazar-img/95.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G02730C/"><img src="/static/img/productos/pikhobazar-img/96.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F01438UC/"><img src="/static/img/productos/pikhobazar-img/97.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/98.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FW1941CA/"><img src="/static/img/productos/pikhobazar-img/99.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FW1943CA/"><img src="/static/img/productos/pikhobazar-img/100.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F04014CA/"><img src="/static/img/productos/pikhobazar-img/101.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C03573AL/"><img src="/static/img/productos/pikhobazar-img/102.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F02689UC/"><img src="/static/img/productos/pikhobazar-img/103.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G01894UC/"><img src="/static/img/productos/pikhobazar-img/104.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/105.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SH4242MI/"><img src="/static/img/productos/pikhobazar-img/107.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/108.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/109.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/FW4023CA/"><img src="/static/img/productos/pikhobazar-img/110.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F01746UC/"><img src="/static/img/productos/pikhobazar-img/111.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00671AL/"><img src="/static/img/productos/pikhobazar-img/112.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G04191VA/"><img src="/static/img/productos/pikhobazar-img/113.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G01680AL/"><img src="/static/img/productos/pikhobazar-img/114.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01581CA/"><img src="/static/img/productos/pikhobazar-img/115.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F02602UC/"><img src="/static/img/productos/pikhobazar-img/116.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C02079VA/"><img src="/static/img/productos/pikhobazar-img/117.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C02080VA/"><img src="/static/img/productos/pikhobazar-img/118.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/119.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/120.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00505AL/"><img src="/static/img/productos/pikhobazar-img/121.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00619AL/"><img src="/static/img/productos/pikhobazar-img/122.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00648AL/"><img src="/static/img/productos/pikhobazar-img/123.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00658AL/"><img src="/static/img/productos/pikhobazar-img/124.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01797UC/"><img src="/static/img/productos/pikhobazar-img/125.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01798UC/"><img src="/static/img/productos/pikhobazar-img/126.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F02659UC/"><img src="/static/img/productos/pikhobazar-img/127.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SHO0036U/"><img src="/static/img/productos/pikhobazar-img/128.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/129.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01783UC/"><img src="/static/img/productos/pikhobazar-img/130.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01854UC/"><img src="/static/img/productos/pikhobazar-img/131.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G01892UC/"><img src="/static/img/productos/pikhobazar-img/132.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01781UC/"><img src="/static/img/productos/pikhobazar-img/133.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SH4271MI/"><img src="/static/img/productos/pikhobazar-img/134.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SH4243MI/"><img src="/static/img/productos/pikhobazar-img/135.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">    
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/SHO0025U/"><img src="/static/img/productos/pikhobazar-img/136.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01780UC/"><img src="/static/img/productos/pikhobazar-img/137.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C01790UC/"><img src="/static/img/productos/pikhobazar-img/138.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/G02463UC/"><img src="/static/img/productos/pikhobazar-img/141.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/"><img src="/static/img/productos/pikhobazar-img/142.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F02603UC/"><img src="/static/img/productos/pikhobazar-img/143.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/F00746EN/"><img src="/static/img/productos/pikhobazar-img/152.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/NEG505AL/"><img src="/static/img/productos/pikhobazar-img/153.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/C03568AL/"><img src="/static/img/productos/pikhobazar-img/154.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                
+                                <a href="/producto/NEG671AL/"><img src="/static/img/productos/pikhobazar-img/155.png" class="card-img-top" alt="..."></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/156.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/157.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/158.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/159.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/160.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/161.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/162.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/163.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/164.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/165.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/166.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/51.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                <img src="/static/img/productos/pikhobazar-img/52.png" class="card-img-top" alt="...">
+                                <a href="/producto/"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </main>
+
+        <!--pie-->
+        <footer>
+            <a href=""></a>
+
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                <p>PRODUCTOS</p>
+                <div><a href="/cocina/">Cocina</a></div>
+                <div><a href="/deco/">Deco</a></div>
+                <div><a href="/baño/">Baño</a></div>
+                <div><a href="/combos/">Combos</a></div>
+                </div>
+                
+                <div class="col-md-4">
+                <p>TIENDA</p>
+                <div><p>medios de pago: transferencia y/o efectivo</p></div>
+
+                </div>
+                <div class="col-md-4">
+                    <p>CONTACTO</p>
+                    <div class="d-flex align-items-center">
+                    <a href="https://wa.me/541141434400?text=Hola%20Pikho%20Bazar%2C%20encontré%20su%20contacto%20en%20la%20web%20y%20quisiera%20hacer%20una%20consulta." target="_blank" class="text-decoration-none d-flex align-items-center">
+                
+                        <img src="/static/img/logo whatsapp.png" alt="whatsapp" id="whatsapp" class="me-2">
+                
+                        <p class="my-0">541141434400</p> 
+                    </a>
+                </div>
+        
+                <div class="d-flex align-items-center">
+                    <a href="https://www.facebook.com/search/top?q=pikhobazar" target="_blank" class="text-decoration-none d-flex align-items-center">
+                
+                        <img src="/static/img/584ac2d03ac3a570f94a666d (1).png" alt="facebook" id="facebook" class="me-2">
+                
+                        <p class="my-0">PIKHO BAZAR</p> 
+                    </a>
+                </div>
+                <div><p>pikhobazar@gmail.com</p></div>
+                <div><p>CABA - Argentina</p></div>
+                </div>
+            </div>
+            </div>
+        </footer>
+
+        <!--js bootstrap-->
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+        ></script>
+    </body>
+    </html>
+
+
+
